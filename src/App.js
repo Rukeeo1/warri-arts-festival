@@ -4,7 +4,7 @@ import './index.css'
 export default function App() {
   return (
     <div>
-      <h1>hello5 uuuu8888----</h1>
+      <h1>Warri Arts Festival Page Leaves Here..</h1>
     </div>
   )
 }
