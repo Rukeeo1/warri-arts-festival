@@ -1,10 +1,13 @@
 import React from 'react'
 import './index.css'
+import { Home } from "./components/Container"
 
 export default function App() {
   return (
-    <div>
-      <h1>Warri Arts Festival Page Leaves Here..</h1>
-    </div>
+    <main>
+    <Switch>
+      <Route path="/" component= { Home } exact />
+    </Switch>
+  </main>
   )
 }
